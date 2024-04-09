@@ -37,7 +37,7 @@ header ul li {
 .jumbotron .col {
     height: 300px;
     background-color: #b5ddff;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 .jumbotron .col:last-child {
@@ -55,14 +55,14 @@ header ul li {
 
 .planning .col:last-child {
     background-color: #fff;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 .testimonials .col {
     width: 100%;
     height: 300px;
     background-color: #9792e4;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 .testimonials .col:first-child {
@@ -112,7 +112,17 @@ header ul li {
         margin: 0 20px;
     }
 
+    .testimonials .col {
+        margin: 20px 30px;
+    }
 
+    .testimonials .col:first-child {
+        margin-top: 70px;
+    }
+
+    .testimonials .col:last-child {
+        margin-bottom: 70px;
+    }
 
 
 }
