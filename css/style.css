@@ -76,6 +76,18 @@ header ul li {
     margin: 40px 0;
 }
 
+.benefits .col {
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.benefits .col:last-child {
+    margin-bottom: 50px;
+}
+
+
 
 /* Utility */
 
@@ -124,6 +136,11 @@ header ul li {
         margin-bottom: 70px;
     }
 
+    .benefits .col {
+        width: calc(100% / 2 - 20px);
+        margin: 10px 10px;
+    }
+
 
 }
 
@@ -144,5 +161,10 @@ header ul li {
     .planning .col {
         width: 50%;
         margin: 0 auto;
+    }
+
+    .benefits .col {
+        width: calc(100% / 3 - 20px);
+        margin: 10px 10px;
     }
 }
