@@ -88,7 +88,7 @@ header ul li {
 }
 
 .about-us {
-    height: 600px;
+    height: 800px;
 }
 
 .about-us .col {
@@ -98,6 +98,14 @@ header ul li {
     border-radius: 30px;
 }
 
+.get-started {
+    height: 600px;
+}
+
+footer {
+    height: 300px;
+    background-color: #333;
+}
 
 
 /* Utility */
