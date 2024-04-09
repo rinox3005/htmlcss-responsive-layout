@@ -5,3 +5,57 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Layout */
+
+header {
+    background-color: #0084fd;
+}
+
+.row {
+    display: flex;
+}
+
+nav {
+    display: none;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li {
+    padding-right: 10px;
+}
+
+/* Utility */
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+
+@media screen and (min-width:780px) {
+    nav {
+        display: block;
+    }
+
+    .burger {
+        display: none;
+    }
+
+}
