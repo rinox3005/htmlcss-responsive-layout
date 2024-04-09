@@ -87,6 +87,17 @@ header ul li {
     margin-bottom: 50px;
 }
 
+.about-us {
+    height: 600px;
+}
+
+.about-us .col {
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
 
 
 /* Utility */
@@ -141,6 +152,12 @@ header ul li {
         margin: 10px 10px;
     }
 
+    .about-us .col {
+        width: calc(100% / 2 - 20px);
+        margin: 10px 10px;
+    }
+
+
 
 }
 
@@ -166,5 +183,15 @@ header ul li {
     .benefits .col {
         width: calc(100% / 3 - 20px);
         margin: 10px 10px;
+    }
+
+    .about-us .col-left {
+        width: 70%;
+        margin: 0;
+    }
+
+    .about-us .col-right {
+        width: 30%;
+        margin: 0;
     }
 }
