@@ -12,8 +12,13 @@ header {
     background-color: #0084fd;
 }
 
+section {
+    width: 100%;
+}
+
 .row {
     display: flex;
+    flex-wrap: wrap;
 }
 
 nav {
@@ -28,16 +33,26 @@ header ul li {
     padding-right: 10px;
 }
 
+.jumbotron .col {
+    height: 300px;
+    background-color: #b5ddff;
+    border-radius: 20px;
+}
+
 /* Utility */
 
 .justify-between {
     justify-content: space-between;
 }
 
-.align-center {
-    align-items: center;
+.col {
+    width: 100%;
+    margin: 10px 30px;
 }
 
+.jumbotron {
+    margin: 30px 0;
+}
 
 
 
@@ -49,13 +64,35 @@ header ul li {
 
 /* Responsive */
 
-@media screen and (min-width:780px) {
+@media screen and (min-width:480px) {
+
+    .col {
+        width: calc(100% / 3 - 20px);
+        margin: 10px 10px;
+    }
+
+    .jumbotron .col:first-child {
+        width: calc(100% / 3 * 2 - 20px)
+    }
+
+    .jumbotron {
+        margin: 30px 20px;
+    }
+
+}
+
+@media screen and (min-width:768px) {
     nav {
         display: block;
     }
 
     .burger {
         display: none;
+    }
+
+    .container {
+        max-width: 991px;
+        margin: 30px auto;
     }
 
 }
