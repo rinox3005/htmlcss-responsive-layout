@@ -10,6 +10,7 @@
 
 header {
     background-color: #0084fd;
+    margin-bottom: 30px;
 }
 
 section {
@@ -39,6 +40,43 @@ header ul li {
     border-radius: 20px;
 }
 
+.jumbotron .col:last-child {
+    margin-bottom: 50px;
+}
+
+.planning .container {
+    padding: 50px 0;
+}
+
+.planning .col {
+    width: 100%;
+    height: 600px;
+}
+
+.planning .col:last-child {
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.testimonials .col {
+    width: 100%;
+    height: 300px;
+    background-color: #9792e4;
+    border-radius: 20px;
+}
+
+.testimonials .col:first-child {
+    width: 100%;
+    height: 300px;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.testimonials {
+    margin: 40px 0;
+}
+
+
 /* Utility */
 
 .justify-between {
@@ -50,16 +88,11 @@ header ul li {
     margin: 10px 30px;
 }
 
-.jumbotron {
-    margin: 30px 0;
+
+.bg-lilac {
+    width: 100%;
+    background-color: #9792e4;
 }
-
-
-
-
-
-
-
 
 
 /* Responsive */
@@ -76,8 +109,11 @@ header ul li {
     }
 
     .jumbotron {
-        margin: 30px 20px;
+        margin: 0 20px;
     }
+
+
+
 
 }
 
@@ -91,8 +127,12 @@ header ul li {
     }
 
     .container {
-        max-width: 991px;
-        margin: 30px auto;
+        max-width: 1160px;
+        margin: 0 auto;
     }
 
+    .planning .col {
+        width: 50%;
+        margin: 0 auto;
+    }
 }
