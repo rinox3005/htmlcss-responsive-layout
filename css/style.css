@@ -231,9 +231,9 @@ header button:hover {
 }
 
 #testimonials h3,
-h2,
-h4,
-p {
+#testimonials h2,
+#testimonials h4,
+#testimonials p {
     text-align: center;
     margin: 10px 30px;
 }
@@ -334,8 +334,8 @@ p {
 }
 
 #benefits p,
-h3,
-h4 {
+#benefits h3,
+#benefits h4 {
     text-align: left;
     margin: 10px 30px;
 }
@@ -343,6 +343,7 @@ h4 {
 #benefits h3 {
     font-size: 60px;
     margin-top: 40px;
+    text-align: left;
 }
 
 #benefits h4 {
@@ -376,7 +377,7 @@ h4 {
 }
 
 #about-us .col-left,
-.col-right {
+#about-us .col-right {
     width: 100%;
     background-color: #fff;
     border-radius: 30px;
@@ -405,6 +406,7 @@ h4 {
 #about-us h3 {
     font-size: 35px;
     line-height: 1.5;
+    text-align: left;
 }
 
 #about-us button {
@@ -429,13 +431,77 @@ h4 {
     margin-right: 10px;
 }
 
-.get-started {
-    height: 600px;
+/* Get Started */
+
+#get-started .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
+#get-started h4,
+#get-started h3,
+#get-started h2,
+#get-started p,
+#get-started button {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#get-started button {
+    border: none;
+    background-color: white;
+    color: #9792e4;
+    padding: 20px 70px;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    border-radius: 40px;
+
+}
+
+#get-started h4 {
+    font-size: 25px;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+
+#get-started h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#get-started h2 {
+    font-size: 80px;
+    font-weight: bold;
+    color: #FDC15F;
+}
+
+#get-started .p-foot {
+    font-size: 20px;
+    line-height: 2;
+}
+
+
+/* Footer */
+
 footer {
-    height: 300px;
     background-color: #333;
+}
+
+footer p {
+    margin: 0;
+    padding-top: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer p:last-child {
+    padding-bottom: 40px;
+}
+
+footer .white a {
+    color: #9792e4;
 }
 
 
@@ -447,6 +513,10 @@ footer {
 
 .items-center {
     align-items: center;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .col {
@@ -482,6 +552,10 @@ footer {
     color: #5F7486;
 }
 
+.light-grey {
+    color: lightgray;
+}
+
 .white {
     color: white;
 }
@@ -492,6 +566,18 @@ footer {
 
 .px-5 {
     padding: 0 5px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.size-30 {
+    font-size: 30px;
 }
 
 .big-icon {
@@ -571,8 +657,8 @@ footer {
         margin-top: 60px;
     }
 
-    h4,
-    p {
+    #testimonials h4,
+    #testimonials p {
         text-align: left;
         margin: 10px 30px;
     }
@@ -598,6 +684,11 @@ footer {
     #about-us img {
         width: 70%;
         border-radius: 50%;
+    }
+
+    /* Get Started */
+    #get-started p {
+        text-align: center;
     }
 
 }
@@ -687,8 +778,8 @@ footer {
         margin: 0;
     }
 
-    .profile-pic-4 i {
+    /* .profile-pic-4 i {
         left: 1050px;
-    }
+    } */
 
 }
