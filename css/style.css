@@ -238,11 +238,14 @@ header button:hover {
     margin: 10px 30px;
 }
 
-#testimonials p {
+#testimonials p,
+#testimonials .slogan {
     font-size: 22px;
     line-height: 2;
     margin-bottom: 30px;
 }
+
+
 
 #testimonials h3 {
     font-size: 25px;
