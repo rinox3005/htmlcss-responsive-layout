@@ -199,21 +199,110 @@ header button:hover {
     cursor: pointer;
 }
 
-/* Testimonials */
+/*Testimonials */
 
-.testimonials .col {
+#testimonials .container {
+    margin: 100px auto;
+}
+
+#testimonials .col {
     width: 100%;
-    height: 300px;
     background-color: #9792e4;
     border-radius: 30px;
 }
 
-.testimonials .col:first-child {
+#testimonials .col-pic {
     width: 100%;
-    height: 300px;
+    background-color: #9792e4;
+    border-radius: 30px;
+}
+
+#testimonials .col-bio {
+    width: 100%;
+    background-color: #9792e4;
+    border-radius: 30px;
+}
+
+#testimonials .col:first-child {
+    width: 100%;
     background-color: transparent;
     border-radius: 0;
 }
+
+#testimonials h3,
+h2,
+h4,
+p {
+    text-align: center;
+    margin: 10px 30px;
+}
+
+#testimonials p {
+    font-size: 22px;
+    line-height: 2;
+    margin-bottom: 30px;
+}
+
+#testimonials h3 {
+    font-size: 25px;
+    margin-bottom: 40px;
+    font-weight: 100;
+}
+
+#testimonials h4 {
+    font-size: 25px;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+#testimonials h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.profile-pic-1 {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../img/testimonial1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-pic-2 {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../img/testimonial2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-pic-3 {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../img/testimonial3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Benefits */
 
 .benefits .col {
     width: 100%;
@@ -286,6 +375,10 @@ footer {
     color: white;
 }
 
+.lilac {
+    color: #9792e4;
+}
+
 .px-5 {
     padding: 0 5px;
 }
@@ -339,13 +432,34 @@ footer {
         margin: 70px 0;
     }
 
-    /* Testimonials */
-    .testimonials .col:first-child {
+    /*Testimonials */
+    #testimonials .col:first-child {
         margin-top: 70px;
     }
 
-    .testimonials .col:last-child {
+    #testimonials .col:last-child {
         margin-bottom: 70px;
+    }
+
+    #testimonials .col-pic {
+        width: 30%;
+        background-color: #9792e4;
+        border-radius: 30px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+
+    #testimonials .col-bio {
+        width: 60%;
+        background-color: #9792e4;
+        border-radius: 30px;
+        margin-top: 60px;
+    }
+
+    h4,
+    p {
+        text-align: left;
+        margin: 10px 30px;
     }
 
     .benefits .col {
