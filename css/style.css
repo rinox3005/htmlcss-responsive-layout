@@ -413,7 +413,6 @@ header button:hover {
 }
 
 #about-us button {
-    margin-left: 30px;
     margin-top: 20px;
     padding: 10px 15px;
     font-size: 20px;
@@ -424,11 +423,12 @@ header button:hover {
 
 }
 
-/* .relative i {
+.relative i {
     font-size: 110px;
     position: absolute;
-    left: 235px;
-} */
+    left: 185px;
+    top: -270px;
+}
 
 #about-us i:last-child {
     margin-right: 10px;
@@ -657,7 +657,7 @@ footer .white a {
         width: 60%;
         background-color: #9792e4;
         border-radius: 30px;
-        margin-top: 60px;
+        margin-top: 45px;
     }
 
     #testimonials h4,
@@ -723,8 +723,8 @@ footer .white a {
     }
 
     #jumbotron img {
-        transform: translate(-3rem, 4.05rem);
-        width: 270px;
+        transform: translate(-3.5rem, 5.10rem);
+        width: 285px;
     }
 
     /* Planning */
