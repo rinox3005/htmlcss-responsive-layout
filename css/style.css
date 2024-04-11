@@ -97,10 +97,10 @@ header button:hover {
 }
 
 #jumbotron img {
-    width: 290px;
+    width: 250px;
     margin-bottom: 0;
     margin-left: 35px;
-    transform: translate(0, 0.24rem);
+    display: block;
 }
 
 #jumbotron .col-left {
@@ -592,6 +592,10 @@ footer .white a {
     margin-top: 60px;
 }
 
+.height-100 {
+    height: 100%;
+}
+
 /* Responsive */
 
 @media screen and (min-width:768px) {
@@ -706,16 +710,17 @@ footer .white a {
     }
 
     .container {
-        max-width: 1140px;
+        max-width: 1280px;
     }
 
     /* Jumbo */
     #jumbotron .col-left {
-        width: 60%;
+        width: 50%;
     }
 
     #jumbotron .col-right {
-        width: 40%;
+        width: 50%;
+        display: flex;
     }
 
     #jumbotron .col-left h2 {
@@ -723,8 +728,9 @@ footer .white a {
     }
 
     #jumbotron img {
-        transform: translate(-3.5rem, 5.10rem);
-        width: 285px;
+        width: 270px;
+        align-self: flex-end;
+        margin-left: 40px;
     }
 
     /* Planning */
